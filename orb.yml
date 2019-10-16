@@ -30,7 +30,7 @@ commands:
         description: CLI options
         type: string
     steps:
-    - run: debride << parameters.options >>
+    - run: debride << parameters.options >> .
 
 examples:
   debride:
